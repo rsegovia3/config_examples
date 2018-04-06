@@ -8,11 +8,7 @@ zuul:
 
 server:
   port: 8080   # HTTP (Tomcat) port
-security:
-  user:
-     name: admin
-     password: secret
-     
+
 management:
   security:
-     roles: ACTUATOR
+     enabled: false
