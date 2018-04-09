@@ -1,10 +1,14 @@
 zuul:
-  #ignoredServices: '*'
+  ignoredServices: '*'
   routes:
     xactware:
       path: /xactware/**
       stripPrefix: true
-      url: http://localhost:2222/
+      url: http://localhost:2222
 
 server:
-  port: 8083   # HTTP (Tomcat) port
+  port: 8080   # HTTP (Tomcat) port
+
+management:
+  security:
+     enabled: false
