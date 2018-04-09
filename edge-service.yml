@@ -7,7 +7,7 @@ zuul:
       url: http://localhost:2222
 
 server:
-  port: 8081   # HTTP (Tomcat) port
+  port: 8080   # HTTP (Tomcat) port
 
 management:
   security:
