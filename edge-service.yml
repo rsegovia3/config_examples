@@ -2,7 +2,7 @@ zuul:
   ignoredServices: '*'
   routes:
     xactware:
-      path: /xactware/**
+      path: /test/**
       stripPrefix: true
       url: http://localhost:2222
 
